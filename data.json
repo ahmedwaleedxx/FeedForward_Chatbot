@@ -1,0 +1,352 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi",
+            "Hello",
+            "Hey",
+            "Salam",
+            "Good morning",
+            "Good afternoon",
+            "Howdy",
+            "Greetings"
+         ],
+         "responses":[
+            "Hi there!",
+            "Hello! Welcome to Egypt! How can I help you today?",
+            "Hello!",
+            "Hello! How can I help you?",
+            "Hey! How's it going?",
+            "Greetings, traveler!",
+            "Howdy! Welcome to Egypt!",
+            "Good day! How may I assist you?"
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Ma'a Salama",
+            "Farewell",
+            "Take care",
+            "Have a nice day",
+            "Until next time"
+         ],
+         "responses":[
+            "Goodbye! Have a great day and enjoy your stay in Egypt.",
+            "Take care and enjoy your time in Egypt!",
+            "Farewell, traveler!",
+            "Ma'a salama! Come back soon!",
+            "See you later, alligator!",
+            "Until next time, have a great day!",
+            "Goodbye, and safe travels!",
+            "Have a nice day, and thank you for visiting Egypt!"
+         ]
+      },
+      {
+         "tag":"thankyou",
+         "patterns":[
+            "Thank you",
+            "Thanks",
+            "Shukran",
+            "Appreciate it",
+            "Thanks a lot",
+            "Many thanks"
+         ],
+         "responses":[
+            "You're welcome! It's my pleasure to help.",
+            "No problem, happy to assist!",
+            "Anytime! Thank you for visiting Egypt.",
+            "You're welcome, and thank you for your kind words!",
+            "It was my pleasure to help you!",
+            "Glad I could be of assistance!",
+            "You're welcome, and have a great day!"
+         ]
+      },
+      {
+         "tag":"places_to_visit",
+         "patterns":[
+            "What are some popular places to visit in Egypt?",
+            "Where should I go in Egypt?",
+            "What are the must-see attractions in Egypt?",
+            "Which places should I not miss in Egypt?",
+            "What are the best places to visit in Egypt?"
+         ],
+         "responses":[
+            "Egypt is full of amazing places to visit! Some popular options include the Pyramids of Giza, the Sphinx, the Egyptian Museum, Luxor, Aswan, and the Red Sea resorts.",
+            "There are so many great places to visit in Egypt! Some must-see attractions include the Valley of the Kings, Abu Simbel, Karnak Temple, and the Citadel of Saladin.",
+            "You definitely won't want to miss the Pyramids of Giza, the Sphinx, or the Egyptian Museum! Other great places to visit include the Khan El-Khalili market, the Temple of Hatshepsut, and the Philae Temple.",
+            "The best places to visit in Egypt depend on your interests, but some top options include Luxor, Aswan, Alexandria, the Sinai Peninsula, and the Red Sea resorts.",
+            "If you're interested in history, don't miss the Karnak Temple Complex, the Valley of the Kings, and the Temple of Edfu. For natural beauty, check out the White Desert or the Siwa Oasis. And if you want to relax by the sea, head to Hurghada"
+         ]
+      },
+      {
+         "tag":"things_to_do",
+         "patterns":[
+            "What are some fun things to do in Egypt?",
+            "What activities are available in Egypt?",
+            "What are some outdoor activities in Egypt?",
+            "What are some cultural activities in Egypt?",
+            "What are some must-see attractions in Egypt?",
+            "What can I do in Egypt?",
+            "Can you recommend some off-the-beaten-path experiences in Egypt?",
+            "Are there any adventure sports to try in Egypt?",
+            "What are some family-friendly activities to do in Egypt?",
+            "What are the top attractions in Egypt?",
+            "Where should I go in Egypt?",
+            "What are some must-see sights in Egypt?"
+         ],
+         "responses":[
+            "There are many fun things to do in Egypt! Some popular options include visiting ancient temples and monuments, taking a Nile River cruise, snorkeling or diving in the Red Sea, exploring the desert on a camel or ATV, trying traditional Egyptian food, attending a sound and light show, and taking a hot air balloon ride over the Valley of the Kings.",
+            "Some must-see attractions in Egypt include the Pyramids of Giza, the Sphinx, the Egyptian Museum, Karnak Temple, Abu Simbel, and the Valley of the Kings.",
+            "For off-the-beaten-path experiences, you can visit Siwa Oasis, take a felucca ride down the Nile River, or explore the Nubian villages in Aswan.",
+            "Adventure sports to try in Egypt include kite surfing in Hurghada, sandboarding in the desert, or hiking in the Sinai Mountains.",
+            "For family-friendly activities, you can visit the Cairo Zoo, go to Magic Galaxy amusement park in Cairo, or take a glass-bottom boat ride in Sharm El Sheikh.",
+            "Egypt is full of exciting things to do! Consider visiting the Great Pyramids of Giza, exploring the historic city of Luxor, taking a relaxing felucca ride down the Nile River, shopping at a local souk, or indulging in a traditional Egyptian spa treatment.",
+            "From cultural experiences to outdoor adventures, Egypt has something for everyone! You can visit the famous temples of Abu Simbel, see the Sphinx up close, take a desert safari, or try your hand at windsurfing in the Red Sea. Whatever your interests, you're sure to find something to love in Egypt."
+         ]
+      },
+      {
+         "tag":"weather",
+         "patterns":[
+            "What's the weather like in Egypt?",
+            "Will it be hot/cold today?",
+            "What is the climate like in Egypt?",
+            "Is it always hot in Egypt?",
+            "What is the best time of year to visit Egypt?",
+            "What's the average temperature in Egypt?",
+            "How hot does it get in Egypt during the summer?",
+            "Does it ever rain in Egypt?",
+            "What should I pack for my trip to Egypt in [month]?",
+            "What should I wear in Egypt?",
+            "Do I need to bring sunscreen to Egypt?"
+         ],
+         "responses":[
+            "Egypt has a hot and dry climate, with summer temperatures often exceeding 40°C. It's always a good idea to bring sunscreen, a hat, and plenty of water when you're exploring the country. In the winter, temperatures can be cooler, especially at night, so it's a good idea to bring a light jacket or sweater.",
+            "The best time of year to visit Egypt is typically between November and March, when the temperatures are cooler and the crowds are smaller. However, some travelers prefer to visit during the summer months to take advantage of the warm weather and longer daylight hours.",
+            "During the summer months, temperatures in Egypt can exceed 40°C (104°F) in many parts of the country. It's important to stay hydrated and protect yourself from the sun with sunscreen and a hat.",
+            "Egypt is a very dry country, with little rainfall throughout the year. However, there can be occasional showers in the winter months.",
+            "If you're visiting Egypt in the summer, be sure to pack light, breathable clothing, a hat, and plenty of sunscreen. If you're visiting in the winter, you may want to pack a light jacket or sweater for cooler evenings.",
+            "Egypt has a hot and dry climate, with the average temperature varying depending on the time of year and location within the country. In the summer, temperatures can often exceed 40°C (104°F) in many parts of Egypt, while in the winter, temperatures can range from 9°C to 20°C (48°F to 68°F) in the north and around 15°C to 25°C (59°F to 77°F) in the south. It's always a good idea to check the current weather forecast and pack accordingly when traveling to Egypt."
+         ]
+      },
+      {
+         "tag":"accommodation",
+         "patterns":[
+            "What are some affordable places to stay in Egypt?",
+            "Can you recommend a hotel with a view in Egypt?",
+            "Where can I find a hostel in Egypt?",
+            "What are some luxury resorts in Egypt?"
+         ],
+         "responses":[
+            "There are many great accommodation options in Egypt to suit every budget and preference! and also some luxury resorts with amazing views. If you're looking for a hostel, you can check out [Dahab / Sharm El Sheikh/ Siwa Oasis] they are known for good hostels."
+         ]
+      },
+      {
+         "tag":"transportation",
+         "patterns":[
+            "How do I get around in Egypt?",
+            "Is there public transportation available in Egypt?",
+            "What is the best way to travel in Egypt?",
+            "Are taxis safe to use in Egypt?",
+            "How much does it cost to hire a driver in Egypt?"
+         ],
+         "responses":[
+            "There are many ways to get around in Egypt, including taxis, buses, and trains. It's also possible to rent a car or hire a private driver for a more personalized experience. If you're traveling between cities, consider taking a domestic flight to save time.",
+            "Public transportation in Egypt includes buses and trains. While they can be crowded and uncomfortable, they are generally safe and reliable. Taxis are also widely available, but be sure to agree on a price with the driver before starting your journey.",
+            "If you prefer more independence and flexibility, renting a car is a great option in Egypt. However, be aware that driving in Egypt can be chaotic and stressful. Hiring a private driver is also an option and can be arranged through your hotel or a travel agency.",
+            "Taxis are generally safe to use in Egypt, but be sure to negotiate the price with the driver before starting your journey. It's also a good idea to choose a licensed taxi from a reputable company, especially if you're traveling alone at night.",
+            "The cost of hiring a driver in Egypt varies depending on the length of your trip and the level of service you require. Prices are generally negotiable, but be sure to agree on a price before starting your journey."
+         ]
+      },
+      {
+         "tag":"food",
+         "patterns":[
+            "Where can I find good food in Egypt?",
+            "What are some local specialties in Egypt?",
+            "Are there any vegetarian options in Egyptian cuisine?",
+            "What is a typical breakfast in Egypt?",
+            "Where can I try traditional Egyptian sweets?"
+         ],
+         "responses":[
+            "Egyptian cuisine is delicious and diverse! Some popular dishes include koshari, foul medames, taameya (Egyptian falafel), and shawarma. You can find great restaurants and street food vendors throughout the country.",
+            "If you're looking for local specialties, be sure to try stuffed pigeon (fatta), mulukhiyah (a leafy green vegetable stew), and bamya (okra stew).",
+            "Egyptian cuisine offers many vegetarian options, such as ful medames (fava beans), koshari (a mixture of rice, lentils, and pasta), and taameya (Egyptian falafel).",
+            "A typical Egyptian breakfast includes ful medames (fava beans), taameya (Egyptian falafel), pita bread, and cheese.",
+            "If you have a sweet tooth, be sure to try traditional Egyptian desserts such as basbousa (a sweet cake made with semolina), qatayef (sweet stuffed pastries), and umm ali (a bread pudding made with milk and nuts). You can find these treats at most bakeries and sweet shops in Egypt."
+         ]
+      },
+      {
+         "tag":"activities",
+         "patterns":[
+            "What are some fun outdoor activities in Egypt?",
+            "Are there any water activities in Egypt?",
+            "What can I do in Egypt at night?",
+            "What are some adventure activities in Egypt?",
+            "Can you recommend any family-friendly activities in Egypt?",
+            "What are some cultural activities in Egypt?",
+            "What are some things to do in Egypt that don't involve sightseeing?"
+         ],
+         "responses":[
+            "Some fun outdoor activities in Egypt include exploring the desert on a camel or ATV, taking a hot air balloon ride over the Valley of the Kings, hiking in the mountains, and snorkeling or diving in the Red Sea. There are also many water activities available, such as sailing, windsurfing, and parasailing.",
+            "Yes, there are many water activities available in Egypt! You can go snorkeling or diving in the Red Sea, take a boat ride on the Nile River, or try your hand at sailing, windsurfing, or parasailing.",
+            "There are many things to do in Egypt at night! You can attend a sound and light show at the Pyramids, go to a traditional Egyptian music concert, or take a Nile River dinner cruise.",
+            "If you're looking for adventure activities in Egypt, consider exploring the desert on a quad bike or dune buggy, going sandboarding, or taking a safari to see wildlife like gazelles and desert foxes.",
+            "There are many family-friendly activities in Egypt! Some popular options include visiting the Egyptian Museum, exploring the Cairo Citadel, taking a horse-drawn carriage ride, or visiting one of the many amusement parks in the country.",
+            "There are many cultural activities in Egypt! You can attend a traditional Nubian music and dance show, visit a Bedouin village to learn about their way of life, or take a cooking class to learn how to make traditional Egyptian dishes like koshari and molokhia.",
+            "If you're looking for things to do in Egypt that don't involve sightseeing, consider visiting one of the many spas in the country, taking a yoga class, or going shopping for souvenirs and local crafts."
+         ]
+      },
+      {
+         "tag":"pyramids",
+         "patterns":[
+            "Tell me about the pyramids",
+            "What are the pyramids of Egypt?",
+            "Can you give me information about the Great Pyramid?"
+         ],
+         "responses":[
+            "The Pyramids of Giza are one of the most recognizable symbols of Egypt and the ancient world. They were built as tombs for pharaohs and their consorts during the Old and Middle Kingdom periods.",
+            "The Great Pyramid of Giza is the oldest and largest of the three pyramids in the Giza pyramid complex. It was built for the pharaoh Khufu and is believed to have taken more than 20 years to complete."
+         ]
+      },
+      {
+         "tag":"luxor",
+         "patterns":[
+            "What is there to see in Luxor?",
+            "Can you recommend some attractions in Luxor?",
+            "Tell me about the Valley of the Kings"
+         ],
+         "responses":[
+            "Luxor is a city in Upper Egypt and is known as the world's greatest open-air museum. Some popular attractions include the Karnak Temple Complex, Luxor Temple, and the Valley of the Kings.",
+            "The Valley of the Kings is a burial ground for pharaohs and their consorts from the New Kingdom period. Some of the most famous tombs include those of Tutankhamun, Ramses III, and Seti I."
+         ]
+      },
+      {
+         "tag":"aswan",
+         "patterns":[
+            "What is there to see in Aswan?",
+            "Can you recommend some attractions in Aswan?",
+            "Tell me about Abu Simbel"
+         ],
+         "responses":[
+            "Aswan is a city in southern Egypt and is known for its beautiful scenery and rich history. Some popular attractions include the Philae Temple, the Aswan Dam, and the Unfinished Obelisk.",
+            "Abu Simbel is an archaeological site that includes two massive rock temples built by the pharaoh Ramesses II in the 13th century BC. The temples were relocated in the 1960s to avoid flooding from the Aswan High Dam."
+         ]
+      },
+      {
+         "tag":"Abu Simbel",
+         "patterns":[
+            "What can I see in Abu Simbel?",
+            "Tell me more about Abu Simbel.",
+            "Is Abu Simbel worth visiting?"
+         ],
+         "responses":[
+            "Abu Simbel is famous for its ancient temples, including the Great Temple of Ramses II and the Temple of Hathor. It's definitely worth a visit if you're interested in ancient Egyptian history and architecture.",
+            "Abu Simbel is one of the most impressive archaeological sites in Egypt, with magnificent temples that have been beautifully preserved over the centuries. You won't be disappointed if you visit."
+         ]
+      },
+      {
+         "tag":"Alexandria",
+         "patterns":[
+            "What are some must-see sights in Alexandria?",
+            "I'm planning a trip to Alexandria. What should I see?",
+            "Can you recommend any good restaurants in Alexandria?"
+         ],
+         "responses":[
+            "Some of the must-see sights in Alexandria include the Library of Alexandria, the Citadel of Qaitbay, and Pompey's Pillar. For food, I highly recommend trying the seafood at Fish Market Restaurant.",
+            "Alexandria is a beautiful coastal city with lots to see and do. In addition to the Library of Alexandria and the Citadel of Qaitbay, you should also check out the Alexandria National Museum and the Montazah Palace Gardens. For a great meal, try Abou El Sid for traditional Egyptian cuisine."
+         ]
+      },
+      {
+         "tag":"Hurghada",
+         "patterns":[
+            "What activities are available in Hurghada?",
+            "I'm planning a trip to Hurghada. What are some fun things to do?",
+            "Are there any good beaches in Hurghada?"
+         ],
+         "responses":[
+            "Hurghada is a popular resort town on the Red Sea, so there are plenty of water activities available like snorkeling, scuba diving, and parasailing. You can also go on a desert safari or take a day trip to Luxor to see the ancient temples and tombs.",
+            "Hurghada has some beautiful beaches, including Makadi Bay, Sahl Hasheesh, and El Gouna. If you're looking for something more adventurous, you can try kiteboarding or windsurfing. And don't miss the opportunity to take a sunset cruise on the Red Sea."
+         ]
+      },
+      {
+         "tag":"Phiala temple",
+         "patterns":[
+            "Tell me about Phiala temple",
+            "What is Phiala temple?",
+            "Can you give me some information on Phiala temple?",
+            "I want to know more about Phiala temple"
+         ],
+         "responses":[
+            "Phiala temple is a small rock-cut temple located on the banks of the Nile in southern Egypt.",
+            "Phiala temple is a beautiful ancient temple that is dedicated to the goddess Isis.",
+            "Phiala temple was built during the Ptolemaic dynasty and it was moved to its current location during the construction of the Aswan High Dam.",
+            "The Phiala temple complex consists of two temples, one dedicated to the goddess Isis and the other to the god Osiris."
+         ]
+      },
+      {
+         "tag":"Luxor temple",
+         "patterns":[
+            "What can you tell me about Luxor temple?",
+            "What is Luxor temple?",
+            "Can you give me some information on Luxor temple?",
+            "I want to know more about Luxor temple"
+         ],
+         "responses":[
+            "Luxor temple is an ancient Egyptian temple located on the east bank of the Nile River in the city of Luxor.",
+            "Luxor temple was built during the New Kingdom period and it was dedicated to the god Amun.",
+            "Luxor temple is famous for its massive columns and statues that depict various gods and pharaohs.",
+            "The temple was used for a variety of religious and ceremonial purposes throughout its history."
+         ]
+      },
+      {
+         "tag":"Siwa",
+         "patterns":[
+            "What can you tell me about Siwa?",
+            "What is Siwa?",
+            "Can you give me some information on Siwa?",
+            "I want to know more about Siwa"
+         ],
+         "responses":[
+            "Siwa is an oasis town located in the western desert of Egypt.",
+            "Siwa is famous for its beautiful landscapes, hot springs, and the Temple of the Oracle.",
+            "Siwa is home to a unique culture and language that is distinct from other regions of Egypt.",
+            "Visitors can enjoy activities such as hiking, sandboarding, and exploring the town's historic architecture.",
+          "Siwa is a beautiful oasis town in the Western Desert of Egypt. Some of the most popular attractions in Siwa include the Shali Fortress, the Temple of the Oracle, and the Cleopatra Bath. Additionally, visitors can go on a tour of the Siwan countryside and experience traditional Siwan culture."  
+         ]
+      },
+      {
+         "tag":"Wadi El Rayan",
+         "patterns":[
+            "What can you tell me about Wadi El Rayan?",
+            "What is Wadi El Rayan?",
+            "Can you give me some information on Wadi El Rayan?",
+            "I want to know more about Wadi El Rayan"
+         ],
+         "responses":[
+            "Wadi El Rayan is a protected area and national park located in the Western Desert of Egypt.",
+            "The park is known for its beautiful lakes, waterfalls, and sand dunes.",
+            "Wadi El Rayan is home to a variety of plant and animal species, including rare and endangered species.",
+            "Visitors can enjoy activities such as hiking, birdwatching, and swimming in the park's lakes."
+         ]
+      },
+      {
+         "tag":"Wadi Hitan",
+         "patterns":[
+            "What is Wadi Hitan?",
+            "Tell me about the fossils in Wadi Hitan",
+            "What can I see in Wadi Hitan?",
+            "What is the best time to visit Wadi Hitan?"
+         ],
+         "responses":[
+            "Wadi Hitan is a UNESCO World Heritage site located in the Western Desert of Egypt. It is famous for the fossils of extinct whales that were found there.",
+            "The fossils in Wadi Hitan are from the early Eocene epoch, around 40 million years ago. The site has a unique collection of whale skeletons and other marine creatures.",
+            "In Wadi Hitan, you can see the fossils of ancient whales, as well as beautiful desert landscapes. The site is also home to various desert animals and birds.",
+            "The best time to visit Wadi Hitan is between October and April, when the weather is mild and dry. It's also a good idea to visit early in the morning or late in the afternoon to avoid the heat of the day."
+         ]
+      }
+   ]
+}
